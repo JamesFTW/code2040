@@ -28,7 +28,7 @@ fetch('http://challenge.code2040.org/api/dating', {
   var date    = stamp(response)
   var second  = seconds(response)
   var newDate = moment(date).add(second, 's').utc().format()
-  console.log("This is the seconds: ", second)
+  console.log("These are the seconds: ", second)
   console.log("This is the date: ", date)
   console.log("This is the new date: ", newDate)
 
